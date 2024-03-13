@@ -1,7 +1,10 @@
 <template>
-  <div>Hello World</div>
+  <NavBar />
+  <RouterView />
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import NavBar from "./components/NavBar.vue";
+</script>
 
 <style scoped></style>
