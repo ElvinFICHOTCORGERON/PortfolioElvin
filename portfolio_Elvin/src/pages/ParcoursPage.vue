@@ -1,5 +1,5 @@
 <template>
-  <div>Mon parcours</div>
+  <h1 class="text-3xl font-bold text-primary p-4">Mon parcours</h1>
   <ul
     class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical"
   >

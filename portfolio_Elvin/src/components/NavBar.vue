@@ -10,8 +10,8 @@
       <button class="btn btn-ghost text-xl">Mes réalisations</button>
     </div>
     <div class="flex-none">
-      <label class="swap swap-rotate">
-        <input type="checkbox" />
+      <label class="swap swap-rotate p-2">
+        <input type="checkbox" @click="changeTheme" />
 
         <svg
           class="swap-on fill-current w-10 h-10"
@@ -33,7 +33,36 @@
           />
         </svg>
       </label>
-      <button class="btn btn-ghost text-xl">Me Contacter</button>
+      <button class="btn btn-ghost text-xl" onclick="my_modal_3.showModal()">
+        Me Contacter
+      </button>
+      <dialog id="my_modal_3" class="modal">
+        <div class="modal-box">
+          <form method="dialog">
+            <button
+              class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+            >
+              ✕
+            </button>
+          </form>
+          <h3 class="font-bold text-lg">Voici les moyens pour me contacter</h3>
+          <p class="py-4 text-secondary">Linkedin : Elvin FICHOT--CORGERON</p>
+          <p class="py-4 text-secondary">
+            Email : elvin.fichotcorgeron@orange.fr
+          </p>
+        </div>
+      </dialog>
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const changeTheme = () => {
+  const htmlElement = document.querySelector("html") as HTMLElement;
+  if (htmlElement.getAttribute("data-theme") === "night") {
+    htmlElement.setAttribute("data-theme", "winter");
+  } else {
+    htmlElement.setAttribute("data-theme", "night");
+  }
+};
+</script>
