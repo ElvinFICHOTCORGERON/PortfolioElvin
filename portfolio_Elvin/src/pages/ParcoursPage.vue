@@ -1,6 +1,6 @@
 <template>
   <h1 class="text-3xl font-bold text-primary p-4">Mon parcours</h1>
-  <div class="block">
+  <div class="block p-8">
     <div>
       <p>
         Depuis mon plus jeune âge j'ai toujours été passionné par

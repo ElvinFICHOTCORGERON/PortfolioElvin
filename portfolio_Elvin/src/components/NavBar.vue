@@ -8,7 +8,9 @@
       <router-link to="/Parcours" class="btn btn-ghost text-xl"
         >Mon parcours</router-link
       >
-      <button class="btn btn-ghost text-xl">Mes réalisations</button>
+      <router-link to="/Realisations" class="btn btn-ghost text-xl"
+        >Mes réalisations</router-link
+      >
     </div>
     <div class="flex-none">
       <label class="swap swap-rotate p-2">
