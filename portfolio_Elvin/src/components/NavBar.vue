@@ -1,6 +1,7 @@
 <template>
   <div class="navbar bg-neutral text-neutral-content">
     <div class="flex-1">
+      <router-link to="/" class="btn btn-ghost text-xl">Accueil</router-link>
       <router-link to="/APropos" class="btn btn-ghost text-xl"
         >A propos</router-link
       >
