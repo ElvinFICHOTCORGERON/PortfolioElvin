@@ -6,9 +6,13 @@
           {{ props.realisation.title }}
         </h2>
         <p>{{ props.realisation.description }}</p>
-        <button class="btn btn-primary" v-if="props.realisation.link">
-          <a :href="props.realisation.link">Lien vers le projet</a>
-        </button>
+
+        <a
+          class="btn btn-primary"
+          v-if="props.realisation.link"
+          :href="props.realisation.link"
+          >Lien vers le projet</a
+        >
 
         <div class="card-actions justify-end">
           <div
