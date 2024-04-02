@@ -18,7 +18,9 @@
           />
         </svg>
       </div>
-      <div class="timeline-end timeline-box">{{ props.diplome.titre }}</div>
+      <div class="timeline-end timeline-box w-48">
+        {{ props.diplome.titre }}
+      </div>
       <hr />
     </li>
   </ul>
