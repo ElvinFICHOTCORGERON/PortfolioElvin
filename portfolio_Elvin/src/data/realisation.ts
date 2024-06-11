@@ -7,6 +7,25 @@ export interface Realisation {
 
 export const realisations: Realisation[] = [
   {
+    title: "Série de Live Tutoriials",
+    description:
+      "Réalisation d'une série de live twitch en pair programming dans le but de réalisé un site web d'un parc d'attraction fictif",
+    link: "",
+    stack: ["Nuxt", "Tailwind", "Typescript", "Supabase"],
+  },
+  {
+    title: "24h des IUT",
+    description:
+      "Participation aux 24h des IUT informatique \n L'évenement était divisé en 3 épreuves de 8h chacunes :\n La première consisté à faire des algorithmes et à les optimiser. \n Pour la seconde épreuve nous devions réalisé un d'un petit jeu vidéo multijoueur se jouant avec un navigateur web. \n Enfin pour la 3ème il fallait résoudre des égnimes autour de la sécurité ",
+    stack: ["Python", "Nuxt", "Tailwind", "Typescript"],
+  },
+  {
+    title: "Presque 24h de l'IUT de Dijon",
+    description:
+      "Participation à un concours pour les membres de l'IUT de dijon, se divisant en 2 épreuves de 10h\n L'une consiste à développer une IA pour jouer à un jeux vidéo et l'autre à réaliser un site web en prenant en compte des consignes données aux préalables ",
+    stack: ["Vue.Js", "Tailwind", "Typescript", "C# .Net"],
+  },
+  {
     title: "Portfolio",
     description: "Site web personnel",
     link: "https://github.com/ElvinFICHOTCORGERON/PortfolioElvin",
