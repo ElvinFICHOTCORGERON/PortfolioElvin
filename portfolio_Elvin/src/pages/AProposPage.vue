@@ -4,7 +4,7 @@
     <div class="justify-center">
       <div class="avatar">
         <div class="rounded-xl">
-          <img src="../../public/photo.PNG" />
+          <img src="../assets/photo.PNG" />
         </div>
       </div>
     </div>
